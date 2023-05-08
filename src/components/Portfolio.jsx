@@ -7,7 +7,7 @@ const Portfolio = () => {
   //setProject(data);
 
   return (
-    <div name="portfolio" className="w-full md:h-screen text-gray-300 bg-gradient-to-b  from-gray-800 to-black pt-20 sm:pt-4 md:pt-2">
+    <div name="portfolio" className="w-full md:h-screen text-gray-300 bg-gradient-to-b  from-gray-800 to-black py-20">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
@@ -17,7 +17,7 @@ const Portfolio = () => {
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-20">
           {/* Gird Item */}
           {project.map((item, index) => (
             <div

@@ -6,8 +6,9 @@ import { Link } from "react-scroll";
 const About = () => {
   return (
     <div
+    
       name="about"
-      className="w-full  md:my--0 h-full md:h-screen p-2 flex items-center bg-gradient-to-b from-gray-800 to-black text-white pt-20 sm:pt-4 md:pt-2 pb-20 sm:pb-4 md:pb-2"
+      className="w-full  md:my--0 h-full md:h-screen p-2 flex items-center bg-gradient-to-b from-gray-800 to-black text-white pt-20 sm:pt-4 md:pt-2 pb-20 sm:py-4 md:pb-2"
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 p-2">

@@ -89,16 +89,18 @@ const Experience = () => {
     //   title: "GitHub",
     //   style: "shadow-gray-400",
     // },
+
+
   ];
 
   return (
     <div
       name="Skills"
-      className="bg-gradient-to-b from-black to-gray-800 w-full h-screen pt-20 sm:pt-4 md:pt-2 pb-20 sm:pb-4 md:pb-2"
+      className="bg-gradient-to-b from-black to-gray-800 w-full h-screen pt-20"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline mt-20 sm:mt-20 md:mt-20">
             Skills
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
